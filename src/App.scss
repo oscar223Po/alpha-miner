@@ -1,0 +1,136 @@
+// Оболонка wrapper ============================================================================================================================================================================================================================================================================================================================================================================================================================================
+body {
+	background-color: #010409;
+}
+.wrapper {
+	display: flex;
+	overflow: hidden;
+	min-height: 100%;
+	flex-direction: column;
+	@supports (overflow: clip) {
+		overflow: clip;
+	}
+	// Притискаємо footer
+	> main {
+		flex: 1 1 auto;
+	}
+	// Фікс для слайдерів
+	> * {
+		min-width: 0;
+	}
+}
+[class*="__container"] {
+	padding: 0px 100px;
+	max-width: 1400px;
+	margin: 0 auto;
+	@media (max-width: 479.98px) {
+		padding: 0px 15px;
+	}
+}
+// Оболонка wrapper ============================================================================================================================================================================================================================================================================================================================================================================================================================================
+._bg-grad {
+	transition: all 0.3s ease 0s;
+	background: linear-gradient(180deg, #2040ae 0%, #b12a97 100%), linear-gradient(180deg, #f8de56 0%, #fbac0b 100%),
+		linear-gradient(180deg, #2040ae 0%, #b12a97 100%);
+	box-shadow:
+		0px 0px 0px 0px rgba(0, 0, 0, 0.4),
+		1px 11px 24px 0px rgba(0, 0, 0, 0.39),
+		3px 44px 44px 0px rgba(0, 0, 0, 0.34),
+		6px 98px 59px 0px rgba(0, 0, 0, 0.2),
+		10px 175px 70px 0px rgba(0, 0, 0, 0.06),
+		16px 273px 77px 0px rgba(0, 0, 0, 0.01);
+}
+.btn-ord {
+	width: 280px;
+	height: 80px;
+	font-weight: 500;
+	font-family: Inter;
+	font-size: 18px;
+	line-height: normal;
+	border-radius: 18px;
+	transition: all 0.3s ease 0s;
+	@media (max-width: 1110px) {
+		width: 140px;
+		height: 60px;
+		font-size: 14px;
+	}
+	@media (any-hover: hover) {
+		&:hover {
+			opacity: 0.8;
+			background: linear-gradient(120deg, #2040ae 0%, #b12a97 100%),
+				linear-gradient(120deg, #f8de56 0%, #fbac0b 100%), linear-gradient(120deg, #2040ae 0%, #b12a97 100%);
+		}
+	}
+}
+// Оболонка wrapper ============================================================================================================================================================================================================================================================================================================================================================================================================================================
+.top {
+	&:not(:last-child) {
+		margin-bottom: 70px;
+	}
+	@media (max-width: 991.98px) {
+		&:not(:last-child) {
+			margin-bottom: 50px;
+		}
+	}
+	@media (max-width: 767.98px) {
+		&:not(:last-child) {
+			margin-bottom: 30px;
+		}
+	}
+	&__title {
+		text-align: center;
+		text-shadow:
+			0px 0px 0px rgba(0, 0, 0, 0.4),
+			-11px 8px 29px rgba(0, 0, 0, 0.39),
+			-42px 32px 53px rgba(0, 0, 0, 0.34),
+			-95px 71px 71px rgba(0, 0, 0, 0.2),
+			-169px 127px 85px rgba(0, 0, 0, 0.06),
+			-265px 198px 93px rgba(0, 0, 0, 0.01);
+		font-size: 80px;
+		font-weight: 900;
+		line-height: 80px;
+		@media (max-width: 991.98px) {
+			font-size: 60px;
+			line-height: 60px;
+		}
+		@media (min-width: 767.98px) {
+			br {
+				display: none;
+			}
+		}
+		@media (max-width: 767.98px) {
+			font-size: 40px;
+			line-height: 40px;
+		}
+	}
+	&__icon {
+		width: 80px;
+		display: flex;
+		margin: 0 auto;
+		justify-content: center;
+		padding: 20px 0px 32px 0px;
+		@media (max-width: 991.98px) {
+			padding: 15px 0px 25px 0px;
+		}
+		@media (max-width: 767.98px) {
+			padding: 15px 0px 15px 0px;
+		}
+	}
+	&__text {
+		color: #b5b5b5;
+		font-size: 25px;
+		font-weight: 600;
+		text-align: center;
+		line-height: normal;
+		@media (max-width: 991.98px) {
+			font-size: 20px;
+		}
+		@media (max-width: 767.98px) {
+			font-size: 14px;
+			br {
+				display: none;
+			}
+		}
+	}
+}
+// Оболонка wrapper ============================================================================================================================================================================================================================================================================================================================================================================================================================================

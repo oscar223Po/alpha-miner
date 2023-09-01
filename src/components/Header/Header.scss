@@ -1,0 +1,125 @@
+//========================================================================================================================================================
+// Header
+.header {
+	z-index: 10;
+	width: 100%;
+	position: fixed;
+	padding: 60px 0px;
+	transition: all 0.7s ease 0s;
+	&._header-scroll {
+		padding: 20px 0px;
+		background-color: rgba(#111, 0.7);
+		box-shadow:
+			rgba(225, 225, 225, 0.2) inset 0px 20px 50px -20px,
+			rgba(225, 225, 225, 0.2) inset 0px -30px 30px -30px;
+		@media (max-width: 767.98px) {
+			padding: 15px 0px;
+		}
+	}
+	@media (max-width: 1440.98px) {
+		padding: 50px 0px;
+	}
+	@media (max-width: 767.98px) {
+		padding: 40px 0px;
+	}
+	&__container {
+		display: flex;
+		align-items: center;
+		justify-content: space-between;
+	}
+	&__logo {
+		display: flex;
+		font-weight: 500;
+		align-items: center;
+		line-height: normal;
+		transition: opacity 0.3s ease 0s;
+		img {
+			padding-right: 22px;
+			&:nth-child(1) {
+				@media (max-width: 767.98px) {
+					display: none;
+				}
+			}
+			&:nth-child(2) {
+				@media (min-width: 767.98px) {
+					display: none;
+				}
+			}
+			@media (max-width: 767.98px) {
+				width: 65px;
+				padding-right: 8px;
+			}
+		}
+		span {
+			color: #2040ae;
+			font-weight: 800;
+			line-height: normal;
+		}
+		@media (max-width: 767.98px) {
+			p {
+				font-size: 13px;
+				display: flex;
+				flex-direction: column;
+			}
+		}
+		@media (any-hover: hover) {
+			&:hover {
+				opacity: 0.8;
+			}
+		}
+	}
+	&__actions {
+		gap: 95px;
+		display: flex;
+		@media (max-width: 1240px) {
+			gap: 20px;
+		}
+	}
+	&__navigation {
+		display: flex;
+		align-items: center;
+		@media (max-width: 991.98px) {
+			display: none;
+		}
+	}
+	&__item {
+		&:last-child {
+			a {
+				border: none;
+			}
+		}
+	}
+	&__link {
+		display: flex;
+		color: #a4a4a4;
+		font-size: 15px;
+		line-height: normal;
+		padding: 12px 32px;
+		transition: all 0.3s ease 0s;
+		border-right: 1px solid #4b4c60;
+		._header-scroll & {
+			color: #ffffff;
+			@media (any-hover: hover) {
+				&:hover {
+					color: #a4a4a4;
+				}
+			}
+		}
+		@media (any-hover: hover) {
+			&:hover {
+				color: #ffffff;
+			}
+		}
+	}
+	&__button {
+		._header-scroll & {
+			height: 60px;
+		}
+		@media (max-width: 767.98px) {
+			._header-scroll & {
+				height: 50px;
+			}
+		}
+	}
+}
+//========================================================================================================================================================
