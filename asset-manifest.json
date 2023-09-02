@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/alpha-miner/static/css/main.a4c7d2e6.css",
-    "main.js": "/alpha-miner/static/js/main.a6cf4bb7.js",
+    "main.js": "/alpha-miner/static/js/main.c44e6339.js",
     "static/media/bg.png": "/alpha-miner/static/media/bg.eaee1b5d30038cdf1b6f.png",
     "static/media/medalion.png": "/alpha-miner/static/media/medalion.a7f0f58374228cd0620e.png",
     "static/media/tx.svg": "/alpha-miner/static/media/tx.20125ab53d90baa31275f816f706e638.svg",
@@ -22,10 +22,10 @@
     "static/media/big-lines.svg": "/alpha-miner/static/media/big-lines.577d2e0eeab51c0d242c.svg",
     "static/media/lines.svg": "/alpha-miner/static/media/lines.915ebee7e90ee1875d3c.svg",
     "main.a4c7d2e6.css.map": "/alpha-miner/static/css/main.a4c7d2e6.css.map",
-    "main.a6cf4bb7.js.map": "/alpha-miner/static/js/main.a6cf4bb7.js.map"
+    "main.c44e6339.js.map": "/alpha-miner/static/js/main.c44e6339.js.map"
   },
   "entrypoints": [
     "static/css/main.a4c7d2e6.css",
-    "static/js/main.a6cf4bb7.js"
+    "static/js/main.c44e6339.js"
   ]
 }
