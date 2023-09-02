@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/alpha-miner/static/css/main.0bba58a5.css",
-    "main.js": "/alpha-miner/static/js/main.d51d1746.js",
+    "main.css": "/alpha-miner/static/css/main.71243c3f.css",
+    "main.js": "/alpha-miner/static/js/main.cf70d685.js",
     "static/media/bg.png": "/alpha-miner/static/media/bg.eaee1b5d30038cdf1b6f.png",
     "static/media/medalion.png": "/alpha-miner/static/media/medalion.a7f0f58374228cd0620e.png",
     "static/media/logo-footer.svg": "/alpha-miner/static/media/logo-footer.998f0afdc27aabbb1663515ac79432ab.svg",
@@ -20,11 +20,11 @@
     "static/media/under-line.svg": "/alpha-miner/static/media/under-line.a52c24e9c91049df100bd1f28002a7de.svg",
     "static/media/big-lines.svg": "/alpha-miner/static/media/big-lines.577d2e0eeab51c0d242c.svg",
     "static/media/lines.svg": "/alpha-miner/static/media/lines.915ebee7e90ee1875d3c.svg",
-    "main.0bba58a5.css.map": "/alpha-miner/static/css/main.0bba58a5.css.map",
-    "main.d51d1746.js.map": "/alpha-miner/static/js/main.d51d1746.js.map"
+    "main.71243c3f.css.map": "/alpha-miner/static/css/main.71243c3f.css.map",
+    "main.cf70d685.js.map": "/alpha-miner/static/js/main.cf70d685.js.map"
   },
   "entrypoints": [
-    "static/css/main.0bba58a5.css",
-    "static/js/main.d51d1746.js"
+    "static/css/main.71243c3f.css",
+    "static/js/main.cf70d685.js"
   ]
 }
