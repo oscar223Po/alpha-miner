@@ -1,11 +1,12 @@
 {
   "files": {
-    "main.css": "/alpha-miner/static/css/main.7151fd06.css",
-    "main.js": "/alpha-miner/static/js/main.cc8788b6.js",
+    "main.css": "/alpha-miner/static/css/main.0bba58a5.css",
+    "main.js": "/alpha-miner/static/js/main.d51d1746.js",
     "static/media/bg.png": "/alpha-miner/static/media/bg.eaee1b5d30038cdf1b6f.png",
     "static/media/medalion.png": "/alpha-miner/static/media/medalion.a7f0f58374228cd0620e.png",
     "static/media/logo-footer.svg": "/alpha-miner/static/media/logo-footer.998f0afdc27aabbb1663515ac79432ab.svg",
     "static/media/logo.svg": "/alpha-miner/static/media/logo.e9cc1609c121a6e8f76452a9cdab5106.svg",
+    "static/media/man-black.svg": "/alpha-miner/static/media/man-black.66b3af2c71d1c35e92d05c58aa3b48b7.svg",
     "static/media/man.svg": "/alpha-miner/static/media/man.f85eed7d37039f7a3428463bfe275eae.svg",
     "static/media/withdraw.svg": "/alpha-miner/static/media/withdraw.07a41f4b3233a52cd3fd83461f0d15f4.svg",
     "static/media/copy.svg": "/alpha-miner/static/media/copy.3273f197f39d42af3f9c12a789bd830e.svg",
@@ -17,12 +18,13 @@
     "static/media/subtract.svg": "/alpha-miner/static/media/subtract.d45217b5b557b63699f7e46afb4d4b23.svg",
     "static/media/circle.svg": "/alpha-miner/static/media/circle.b89bfca91ecc62c076ee.svg",
     "static/media/under-line.svg": "/alpha-miner/static/media/under-line.a52c24e9c91049df100bd1f28002a7de.svg",
+    "static/media/big-lines.svg": "/alpha-miner/static/media/big-lines.577d2e0eeab51c0d242c.svg",
     "static/media/lines.svg": "/alpha-miner/static/media/lines.915ebee7e90ee1875d3c.svg",
-    "main.7151fd06.css.map": "/alpha-miner/static/css/main.7151fd06.css.map",
-    "main.cc8788b6.js.map": "/alpha-miner/static/js/main.cc8788b6.js.map"
+    "main.0bba58a5.css.map": "/alpha-miner/static/css/main.0bba58a5.css.map",
+    "main.d51d1746.js.map": "/alpha-miner/static/js/main.d51d1746.js.map"
   },
   "entrypoints": [
-    "static/css/main.7151fd06.css",
-    "static/js/main.cc8788b6.js"
+    "static/css/main.0bba58a5.css",
+    "static/js/main.d51d1746.js"
   ]
 }
