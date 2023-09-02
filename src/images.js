@@ -10,6 +10,8 @@ import telegram from './assets/Icons/telegram.svg'
 import withdraw from './assets/Icons/withdraw.svg'
 import binance from './assets/Icons/binance.svg'
 import swipe from './assets/Icons/swipe.svg'
+import manBlack from './assets/Icons/man-black.svg'
+import tx from './assets/Icons/tx.svg'
 //--------------------------------------------------------------
 import mainBottom from './assets/Main/bottom.svg'
 //--------------------------------------------------------------
@@ -26,6 +28,9 @@ export default {
 	withdraw,
 	binance,
 	swipe,
+	manBlack,
+	tx,
 	//--------------------------------------------------------------
-	mainBottom
+	mainBottom,
+	//--------------------------------------------------------------
 }

@@ -112,6 +112,9 @@
 		}
 	}
 	&__button {
+		display: flex;
+		align-items: center;
+		justify-content: center;
 		._header-scroll & {
 			height: 60px;
 		}

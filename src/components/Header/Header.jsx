@@ -1,6 +1,7 @@
 import './Header.scss'
 import images from '../../images';
 import React, { useState } from 'react'
+import { Link } from 'react-router-dom';
 
 function Header() {
 	const [header, setHeader] = useState(false);
@@ -22,7 +23,7 @@ function Header() {
 						<li className="header__item"><a href="" className="header__link">Contract</a></li>
 						<li className="header__item"><a href="" className="header__link">Telegram</a></li>
 					</ul>
-					<button type="button" className="header__button _bg-grad btn-ord">Connect Walet</button>
+					<Link to="/transaction" className="header__button _bg-grad btn-ord">Connect Walet</Link>
 				</div>
 			</div>
 		</div>
