@@ -1,6 +1,6 @@
 # Adaptive React App - For "Crypto-Services"
 
-<img width="1440" alt="Screen Shot 2023-09-19 at 17 15 02" src="https://github.com/oscar223Po/alpha-miner/assets/99406219/aca2ffc8-7441-4c59-aa47-ff8e4b895a0a">
+![alpha](https://github.com/oscar223Po/alpha-miner/assets/99406219/77ab81e3-6a1c-4584-b5a3-ca4683bea0d8)
 
 ## Available Scripts
 
