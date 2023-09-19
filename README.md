@@ -1,6 +1,6 @@
-# Getting Started with Create React App
+# Adaptive React App - For "Crypto-Services"
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<img width="1440" alt="Screen Shot 2023-09-19 at 17 15 02" src="https://github.com/oscar223Po/alpha-miner/assets/99406219/aca2ffc8-7441-4c59-aa47-ff8e4b895a0a">
 
 ## Available Scripts
 
